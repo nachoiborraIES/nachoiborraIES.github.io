@@ -128,3 +128,15 @@ strong
 {
     color: #CC5803;
 }
+
+@media (max-width: 768px)
+{
+    .tarjeta
+    {
+        display: block;
+    }
+    .logo
+    {
+        width: 100%;
+    }
+}
