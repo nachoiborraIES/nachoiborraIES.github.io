@@ -7,6 +7,11 @@ body
     line-height: 1.5em;
 }
 
+h1, h2, h3
+{
+    line-height: 2em;
+}
+
 header
 {
     margin-top: 50px;
@@ -131,6 +136,11 @@ strong
 
 @media (max-width: 1000px)
 {
+    body
+    {
+        text-align: left;
+    }
+
     .tarjeta
     {
         display: block;
