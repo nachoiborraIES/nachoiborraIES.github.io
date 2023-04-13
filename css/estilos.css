@@ -139,4 +139,9 @@ strong
     {
         width: 100%;
     }
+    a.boton
+    {
+        display: block;
+        margin-top: 10px;
+    }
 }
