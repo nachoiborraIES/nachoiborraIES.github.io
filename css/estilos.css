@@ -1,0 +1,129 @@
+body
+{
+    margin: 10px 10%;
+    background-color: #ffc971;
+    font-family: 'Press Start 2P';
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+header
+{
+    margin-top: 50px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+
+nav ul li
+{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-width: 250px;
+    text-align: center;
+    background-color: #E2711D;
+}
+
+nav ul li a
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFB627;
+}
+
+a.boton
+{
+    background-color: #E2711D;
+    color: #FFB627;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#personaje
+{
+    position: absolute;
+    transition: all 1s linear;    
+}
+
+.personaje
+{
+    width: 30px;
+    height: 30px;
+}
+
+.hueco
+{
+    background-color: #FFB627;
+}
+
+strong
+{
+    color: #CC5803;
+}
+
+.tarjeta
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.tarjeta, .tarjeta a
+{
+    font-size: 0.8em;
+}
+
+.logo
+{
+    text-align: center;
+    width: 250px;
+    height:150px;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.logo p
+{
+    padding-top: 30px;
+}
+
+.logo img
+{
+    width: 200px;
+    height: 150px;
+}
+
+.letra_i, .letra_a
+{
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+.letra_i
+{
+    color: #FF9505;
+}
+
+.letra_a
+{
+    color: #CC5803;
+}
